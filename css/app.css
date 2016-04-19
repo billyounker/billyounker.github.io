@@ -1,0 +1,839 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+
+/* Custom Styles */
+
+/* Global Styles */
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #0B1B38;
+}
+a:hover {
+	color: #50E3C2;
+}
+.banner {
+}
+.banner-text h1 {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: white;
+	font-size: 2em;
+}
+figcaption {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #0B1B38;
+	font-size: 17px;
+	font-style: italic;
+	margin-top: -75px;
+}
+.p-link {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #0B1B38;
+	text-decoration: underline;
+	text-decoration-color: #50E3C2;
+	box-shadow: inset 0 0 0 0 #50E3C2;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+.p-link:hover {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #0B1B38;
+	box-shadow: inset 500px 0 0 0 #50E3C2;
+}
+.navigation {
+	background-color: #fff;
+	margin-top: 5px;
+}
+.navigation img {
+	margin-right: 10px;
+	margin-top: -5px;
+}
+hr {
+	border-bottom: none;
+	margin-top: 150px;
+}
+li {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #0B1B38;
+	text-decoration: none;
+	list-style-type: none;
+}
+.row {
+	text-align: center;
+}
+.row-center {
+	text-align: center;
+}
+/*.row.background {
+	background-color: black;
+}
+*/
+
+/*	Navigation */
+.nav-link,
+.logo {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	list-style: none;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+.logo {
+	font-size: 1.2em;
+	float: left;
+}
+.nav-link {
+	float: right;
+}
+
+/*
+.icon-contact {
+	background: url(../img/goggles_mask.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-right: 25px;
+	text-align: left;
+	margin-right: 20px;
+}
+.icon-work {
+	background: url(../img/workman.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-right: 15px;
+	text-align: left;
+}
+.icon-process {
+	background: url(../img/swiss_army_knife.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-right: 15px;
+	text-align: left;
+}
+*/
+
+/* Intro */
+.intro h1,
+.intro h2 {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	font-size: 3.2em;
+	text-align: center;
+}
+.intro h1 {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #0B1B38;
+	margin-top: 140px;
+}
+.intro h2 {
+	color: #50E3C2;
+}
+.clickable-div {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* Process and Approach */
+#process-id {
+	padding-top: 50px;
+}
+#approach-id {
+	padding-top: 30px;
+}
+.row-icons {
+	margin: 0 auto;
+	width: 800px;
+}
+.process {
+	margin-top: 50px;
+}
+.process h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro' Garamond, serif;
+	font-size: 48px;
+	padding: 0 20%;
+	text-align: left;
+	margin-top: 120px;
+}
+.process-no-top {
+	margin-top: 0;
+}
+.process-no-top h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro' Garamond, serif;
+	font-size: 48px;
+	padding: 0 20%;
+	text-align: left;
+	margin-top: 0;
+}
+.row h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro', Garamond, serif;
+	font-size: 48px;
+	padding: 0 20%;
+	text-align: left;
+}
+h4 {
+	color: #515e65;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.subtitle h4 {
+	color: #0B1B38;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 0 20%;
+	text-align: left;
+	text-transform: uppercase;
+}
+.overview p {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #535D63;
+	font-size: 20px;
+	line-height: 32px;
+	margin-bottom: 40px;
+	padding: 0 20%;
+	text-align: left;
+}
+.gather,
+.ideate,
+.build,
+.test,
+.measure,
+.refine {
+	height: 69px;
+	opacity: 0.69;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.gather {
+	background: url(../img/digger-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.ideate {
+	background: url(../img/wheel_barrow-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.build {
+	background: url(../img/spanner_screwdriver-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.test {
+	background: url(../img/u_bend-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.measure {
+	background: url(../img/tape_measure-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.refine {
+	background: url(../img/saw-med.png) no-repeat;
+	background-position: center;
+	background-size: auto 50%;
+}
+.icon-header.gather {
+	background: url(../img/digger-med.png) no-repeat;
+	background-size: auto 75%;
+	margin-left: 20%;
+	margin-top: 69px;
+}
+.icon-header.ideate {
+	background: url(../img/wheel_barrow-med.png) no-repeat;
+	background-size: auto 70%;
+	margin-left: 20%;
+	margin-top: 69px;
+}
+.icon-header.test {
+	background: url(../img/u_bend-med.png) no-repeat;
+	background-size: auto 70%;
+	margin-left: 20%;
+	margin-top: 69px;
+	}
+.icon-header.build {
+	background: url(../img/spanner_screwdriver-med.png) no-repeat;
+	background-size: auto 70%;
+	margin-left: 20%;
+	margin-top: 69px;
+}
+.icon-header.measure {
+	background: url(../img/tape_measure-med.png) no-repeat;
+	background-size: auto 70%;
+	margin-left: 20%;
+	margin-top: 69px;
+}
+.icon-header.refine {
+	background: url(../img/saw-med.png) no-repeat;
+	background-size: auto 70%;
+	margin-left: 20%;
+	margin-top: 69px;
+}
+.intercom-icon {
+	background: url(../img/intercom-icon.png);
+}
+.approach-image {
+	background: url(../img/Design-Process.png) no-repeat;
+	background-position: 0 -100px;
+	background-size: 100% auto;
+	height: 300px;
+	margin: 15px 0 0 0;
+}
+
+
+/* Portfolio-tiles */
+#work-id {
+	padding-top: 50px;
+}
+.portfolio-tiles h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro', Garamond, serif;
+	font-size: 48px;
+	padding: 0 20%;
+	text-align: left;
+	margin-bottom: 0;
+}
+.portfolio-tiles {
+	background-color: #F7FDFD; /* alt: #F8FDFD;*/
+	margin: 0;
+	min-width: 100%;
+	padding: 25px 0;
+}
+.large-6 {
+	padding: 0 50px;
+}
+.thumbnail {
+	padding: 15px;
+	margin: 0 auto;
+	width: 100%;
+}
+.thumbnail-grid {
+	display: inline-block;
+}
+.box-divider {
+	background-color: #50E3C2;
+	height: 6px;
+	margin: 0 auto;
+	text-align: center;
+}
+.thumbnail-visual {
+	background-color: #fff;
+	padding-top: 20px;
+	margin-top: 25px;
+	text-align: center;
+	overflow: hidden;
+	height: 300px;
+}
+.thumbnail-visual img {
+	-moz-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    background-size: 100% auto;
+}
+.thumbnail-visual:hover img {
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.thumbnail-content {
+	background-color: #fff;
+	height: 170px;
+	border-bottom: 4px #0B1B38 solid;
+	margin-bottom: 35px;
+}
+.thumbnail-content-header h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro', Garamond, serif;
+	font-size: 32px;
+	padding: 25px;
+	text-align: left;
+	margin: 0 0 0 10px;
+	width: 100%;
+	box-shadow: inset 0 0 0 0 #50E3C2;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	transition: all ease 0.4s;
+}
+.thumbnail-content-header:hover h3 {
+	box-shadow: inset 0 0 0 0 #50E3C2;
+}
+.thumbnail-description {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #515e65;
+	font-size: 16px;
+	line-height: 20px;
+	padding-top: 30px;
+	text-align: left;
+}
+.thumbnail-button {
+	border: 3px #515e65 solid;
+	font-family: 'Source Sans Pro', Garamond, serif;
+	color: #515e65;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -10px 0 0 35px;
+	padding: 10px 10px;
+	text-align: center;
+	width: 150px;
+	box-shadow: inset 0 0 0 0 #50E3C2;
+	-webkit-transition: all ease 0.6s;
+	-moz-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+}
+.thumbnail-button:hover {
+	border: 3px #50E3C2 solid;
+	box-shadow: inset 100px 0 0 0 #50E3C2;
+	background-color: #50E3C2;
+	color: #fff;
+}
+#ovia-thumbnail {
+	position: relative;
+}
+.boston-public-market-thumbnail {
+	background: url(../img/BPM-thumbnail.png) no-repeat;
+	background-position: -150px -50px;
+	background-size: 200% auto;
+	border: solid 1px #D0021B;
+	height: 300px;
+}
+.boston-public-market-thumbnail:hover {
+	opacity: .5;
+}
+.launch-hack-thumbnail {
+	background: url(../img/LaunchHack-2.png) no-repeat;
+	background-size: 150% auto;
+	border: solid 1px #4A90E2;
+	height: 300px;
+}
+.launch-hack-thumbnail:hover {
+	opacity: .5;
+}
+.rk-thumbnail {
+	background: url(../img/RK-thumbnail.png) no-repeat;
+	background-size: 150% auto;
+	border: solid 1px #F5A623;
+	height: 300px;
+	margin-left: 13px;
+	width: 100%;
+}
+.rk-thumbnail:hover {
+	opacity: .5;
+}
+.ezcater-thumbnail {
+	background: url(../img/ezCater-thumbnail.png) no-repeat;
+	background-size: 150% auto;
+	border: solid 1px #50E3C2;
+	height: 300px;
+	margin-left: 13px;
+	width: 100%;
+}
+.ezcater-thumbnail:hover {
+	opacity: .5;
+}
+.klaviyo-thumbnail{
+	background: url(../img/Klaviyo-thumbnail.png) no-repeat;
+	background-position: 0 0;
+	background-size: 150% auto;
+	border: solid 1px #2053AE;
+	height: 300px;
+	margin-left: 13px;
+	width: 100%;
+}
+.klaviyo-thumbnail:hover {
+	opacity: .5;
+}
+.lean-thumbnail {
+	background: url(../img/PartnerProject-thumbnail.png) no-repeat;
+	background-color: #E36767;
+	background-size: 90% auto;
+	border: solid 1px #7ED321;
+	height: 300px;
+	margin-bottom: 150px;
+	margin-left: 13px;
+	width: 100%;
+}
+.lean-thumbnail:hover {
+	opacity: .5;
+}
+/* About Me */
+.about-banner {
+	background: url(../img/bl.jpg) no-repeat;
+	background-size: 100% auto;
+	height: 400px;
+	width: 100%;
+	margin: 50px 0 80px 0;
+}
+
+
+
+/* Footer */
+
+.footer {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	height: 60px;
+	width: 100%;
+}
+.nav-link-footer,
+.logo-footer {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	display: inline-block;
+	height: 60px;
+	line-height: 40px;
+	list-style: none;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+.nav-link-footer a,
+.logo-footer a {
+	color: #50E3C2;
+}
+.nav-link-footer a:hover,
+.logo-footer a:hover {
+	color: #0B1B38;
+}
+.logo-footer {
+	font-size: 1.2em;
+	float: left;
+}
+.nav-link-footer {
+	float: right;
+}
+
+
+/* General Styles for Project Pages */
+.banner {
+	min-width: 100%;
+}
+.banner-box {
+	margin: 50px 10px 0 10px;
+}
+.banner-visual {
+	background-color: #fff;
+	padding-top: 20px;
+	margin-top: 25px;
+	text-align: center;
+	overflow: hidden;
+	height: 300px;
+}
+.banner-visual img {
+	-moz-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    background-size: 100% auto;
+}
+.banner-visual:hover img {
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.banner-content {
+	background-color: #fff;
+	border: 3px solid #0B1B38;
+}
+.banner-content-header h3 {
+	color: #0B1B38;
+	font-family: 'Source Serif Pro', Garamond, serif;
+	font-size: 38px;
+	padding: 25px;
+	text-align: left;
+	margin: 0;
+	width: 100%;
+}
+.banner-content-description {
+	font-family: 'Source Serif Pro', Garamond, serif;
+	color: #515e65;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px;
+	text-align: left;
+}
+
+/* LaunchHack */
+.launchHack-banner {
+	background: url(../img/LaunchHack.png) no-repeat;
+	background-size: 100% auto;
+	height: 500px;
+	margin-top: 50px;
+	width: 100%;
+}
+.wrangl-brainstorm {
+	background: url(../img/Wrangl-Brainstorm.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	margin-bottom: 90px;
+	height: 400px;
+	width: 100%;
+}
+.wrangl-build {
+	background: url(../img/Wrangl-Build.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	margin-bottom: -70px;
+	height: 400px;
+	width: 100%;
+}
+.wrangl-test{
+	background: url(../img/Wrangl-Test-2.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	margin-bottom: 90px;
+	height: 400px;
+	width: 100%;
+}
+.wrangl-refine {
+	background: url(../img/LaunchHack.png) no-repeat;
+	background-size: 100% auto;
+	height: 500px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+/* IdeaHack */
+.idea-hack-banner {
+	background: url(../img/BPM.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 100% auto;
+	margin: 50px 0 70px 0;
+	height: 600px;
+	width: 100%;
+}
+.bpm-vendor {
+	background: url(../img/bpm-vendor.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 65% auto;
+	margin-bottom: 110px;
+	height: 400px;
+	width: 100%;
+}
+.bpm-whiteboard {
+	background: url(../img/bpm-whiteboard.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 65% auto;
+	margin-bottom: 110px;
+	height: 400px;
+	width: 100%;
+}
+.bpm-assumptions {
+	background: url(../img/bpm-assumptions.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 65% auto;
+	margin-bottom: 110px;
+	height: 400px;
+	width: 100%;
+}
+.bpm-build {
+	background: url(../img/bpm-lessthan1000.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	margin-bottom: 110px;
+	height: 450px;
+	width: 100%;
+}
+.bpm-lofi {
+	background: url(../img/BPM-lofi.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 20% auto;
+	margin-bottom: 100px;
+	height: 325px;
+	width: 100%;
+}
+.bpm-refine {
+	background: url(../img/BPM-refined.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 2050px;
+	width: 100%;
+}
+/* ezCater */
+.ezcater-header {
+	background: url(../img/order-tracking-iphone-6.gif) no-repeat;
+	background-position: 50% 0;
+	background-size: 20% auto;
+	height: 600px;
+	width: 100%;
+	margin-top: 80px;
+}
+.ezcater-pdf {
+	background: url(../img/ezcater-pdf.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: 65% auto;
+	margin-bottom: 110px;
+	height: 400px;
+	width: 100%;
+}
+
+/* Runkeeper */
+.rk-banner {
+	background: url(../img/rk-joe.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 20% auto;
+	height: 600px;
+	width: 100%;
+	margin-top: 80px;
+}
+.rk-rebrand {
+	background: url(../img/rk-rebrand.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	margin-bottom: 50px;
+	height: 275px;
+	width: 100%;
+}
+.rk-groups-web {
+	background: url(../img/rk-groups-web.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 475px;
+	width: 100%;
+}
+.rk-storyboard {
+	background: url(../img/rk-storyboard.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 10px;
+	height: 475px;
+	width: 100%;
+}
+.rk-mobile {
+	background: url(../img/rk-mobile.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 10px;
+	height: 475px;
+	width: 100%;
+}
+
+/* Klaviyo */
+.klaviyo-banner {
+	background: url(../img/Klaviyo-Banner.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	height: 400px;
+	width: 100%;
+	margin: 50px auto 80px auto;
+}
+.saas-pricing {
+	background: url(../img/Saas-Pricing.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	height: 400px;
+	width: 100%;
+}
+.klaviyo-research {
+	background: url(../img/Klaviyo-Research.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.klaviyo-pricing {
+	background: url(../img/Klaviyo-Pricing-2.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.klaviyo-measurement {
+	background: url(../img/Klaviyo-Measurements.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 40% auto;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/* Ovuline */
+.partnerproject-banner {
+	background: url(../img/ovia-banner-3.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 100%;
+	height: 600px;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.ovia-app-questions {
+	background: url(../img/ovia-app-questions-2.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 65% auto;
+	margin-bottom: 110px;
+	height: 400px;
+	width: 100%;
+}
+.ovia-parenting-questions {
+	background: url(../img/ovia-parenting-questions.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 69px;
+	height: 400px;
+	width: 100%;
+}
+.ovia-styleguide {
+	background: url(../img/ovia-styleguide.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 1000px;
+	width: 100%;
+}
+.ovia-survey {
+	background: url(../img/ovia-survey.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 325px;
+	width: 100%;
+}
+.ovia-job-story {
+	background: url(../img/ovia-job-story.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 425px;
+	width: 100%;
+}
+.ovia-new-user {
+	background: url(../img/ovia-banner.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 1500px;
+	width: 100%;
+}
+.ovia-app-follower {
+	background: url(../img/ovia-app-follower.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 60% auto;
+	margin-bottom: 100px;
+	height: 1300px;
+	width: 100%;
+}
+
+
+
+
+
