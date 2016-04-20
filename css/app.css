@@ -571,6 +571,7 @@ h4 {
 /* LaunchHack */
 .launchHack-banner {
 	background: url(../img/LaunchHack.png) no-repeat;
+	background-position: 50% 0;
 	height: 500px;
 	margin-top: 50px;
 	width: 100%;
@@ -578,7 +579,6 @@ h4 {
 .wrangl-brainstorm {
 	background: url(../img/Wrangl-Brainstorm.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
 }
@@ -596,6 +596,7 @@ h4 {
 }
 .wrangl-refine {
 	background: url(../img/LaunchHack-bottom.png) no-repeat;
+	background-position: 50% 0;
 	height: 500px;
 	width: 100%;
 }
