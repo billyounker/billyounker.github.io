@@ -25,7 +25,7 @@ figcaption {
 	color: #0B1B38;
 	font-size: 17px;
 	font-style: italic;
-	margin-top: -75px;
+	margin-top: 2%;
 }
 .p-link {
 	font-family: 'Source Serif Pro', Garamond, serif;
@@ -571,7 +571,6 @@ h4 {
 /* LaunchHack */
 .launchHack-banner {
 	background: url(../img/LaunchHack.png) no-repeat;
-	background-size: 100% auto;
 	height: 500px;
 	margin-top: 50px;
 	width: 100%;
@@ -580,31 +579,24 @@ h4 {
 	background: url(../img/Wrangl-Brainstorm.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 40% auto;
-	margin-bottom: 90px;
 	height: 400px;
 	width: 100%;
 }
 .wrangl-build {
 	background: url(../img/Wrangl-Build.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
-	margin-bottom: -70px;
-	height: 400px;
-	width: 100%;
+	height: 375px;
+	width: auto;
 }
 .wrangl-test{
 	background: url(../img/Wrangl-Test-2.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
-	margin-bottom: 90px;
 	height: 400px;
 	width: 100%;
 }
 .wrangl-refine {
-	background: url(../img/LaunchHack.png) no-repeat;
-	background-size: 100% auto;
+	background: url(../img/LaunchHack-bottom.png) no-repeat;
 	height: 500px;
-	margin-bottom: 20px;
 	width: 100%;
 }
 
@@ -621,7 +613,6 @@ h4 {
 	background: url(../img/bpm-vendor.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 65% auto;
-	margin-bottom: 110px;
 	height: 400px;
 	width: 100%;
 }
@@ -629,7 +620,6 @@ h4 {
 	background: url(../img/bpm-whiteboard.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 65% auto;
-	margin-bottom: 110px;
 	height: 400px;
 	width: 100%;
 }
@@ -637,7 +627,6 @@ h4 {
 	background: url(../img/bpm-assumptions.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 65% auto;
-	margin-bottom: 110px;
 	height: 400px;
 	width: 100%;
 }
@@ -645,7 +634,6 @@ h4 {
 	background: url(../img/bpm-lessthan1000.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 40% auto;
-	margin-bottom: 110px;
 	height: 450px;
 	width: 100%;
 }
@@ -653,7 +641,6 @@ h4 {
 	background: url(../img/BPM-lofi.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 20% auto;
-	margin-bottom: 100px;
 	height: 325px;
 	width: 100%;
 }
@@ -661,7 +648,6 @@ h4 {
 	background: url(../img/BPM-refined.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 2050px;
 	width: 100%;
 }
@@ -678,7 +664,6 @@ h4 {
 	background: url(../img/ezcater-pdf.jpg) no-repeat;
 	background-position: 50% 0;
 	background-size: 65% auto;
-	margin-bottom: 110px;
 	height: 400px;
 	width: 100%;
 }
@@ -696,7 +681,6 @@ h4 {
 	background: url(../img/rk-rebrand.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 40% auto;
-	margin-bottom: 50px;
 	height: 275px;
 	width: 100%;
 }
@@ -704,7 +688,6 @@ h4 {
 	background: url(../img/rk-groups-web.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 475px;
 	width: 100%;
 }
@@ -712,7 +695,6 @@ h4 {
 	background: url(../img/rk-storyboard.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 10px;
 	height: 475px;
 	width: 100%;
 }
@@ -720,7 +702,6 @@ h4 {
 	background: url(../img/rk-mobile.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 10px;
 	height: 475px;
 	width: 100%;
 }
@@ -747,7 +728,6 @@ h4 {
 	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
-	margin-bottom: 25px;
 }
 .klaviyo-pricing {
 	background: url(../img/Klaviyo-Pricing-2.png) no-repeat;
@@ -755,7 +735,6 @@ h4 {
 	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
-	margin-bottom: 25px;
 }
 .klaviyo-measurement {
 	background: url(../img/Klaviyo-Measurements.png) no-repeat;
@@ -763,7 +742,6 @@ h4 {
 	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
-	margin-bottom: 25px;
 }
 
 /* Ovuline */
@@ -780,7 +758,6 @@ h4 {
 	background: url(../img/ovia-app-questions-2.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 65% auto;
-	margin-bottom: 110px;
 	height: 400px;
 	width: 100%;
 }
@@ -788,7 +765,6 @@ h4 {
 	background: url(../img/ovia-parenting-questions.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 69px;
 	height: 400px;
 	width: 100%;
 }
@@ -796,7 +772,6 @@ h4 {
 	background: url(../img/ovia-styleguide.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 1000px;
 	width: 100%;
 }
@@ -804,7 +779,6 @@ h4 {
 	background: url(../img/ovia-survey.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 325px;
 	width: 100%;
 }
@@ -812,7 +786,6 @@ h4 {
 	background: url(../img/ovia-job-story.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 425px;
 	width: 100%;
 }
@@ -820,7 +793,6 @@ h4 {
 	background: url(../img/ovia-banner.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 1500px;
 	width: 100%;
 }
@@ -828,7 +800,6 @@ h4 {
 	background: url(../img/ovia-app-follower.png) no-repeat;
 	background-position: 50% 0;
 	background-size: 60% auto;
-	margin-bottom: 100px;
 	height: 1300px;
 	width: 100%;
 }
