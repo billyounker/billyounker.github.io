@@ -190,6 +190,9 @@ h4 {
 	text-align: left;
 	text-transform: uppercase;
 }
+.overview.margin-top {
+	margin-top: 50px;
+}
 .overview p {
 	font-family: 'Source Serif Pro', Garamond, serif;
 	color: #535D63;
@@ -628,7 +631,7 @@ h4 {
 	width: 100%;
 }
 .bpm-build {
-	background: url(../img/bpm-lessthan1000.png) no-repeat;
+	background: url(../img/BPM-lessthan1000.png) no-repeat;
 	background-position: 50% 0;
 	height: 450px;
 	width: 100%;
@@ -730,7 +733,7 @@ h4 {
 .partnerproject-banner {
 	background: url(../img/ovia-banner-3.png) no-repeat;
 	background-position: 50% 0;
-	height: 600px;
+	height: 650px;
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 25px;
