@@ -144,7 +144,7 @@ li {
 }
 .row-icons {
 	margin: 0 auto;
-	width: 800px;
+	padding: 0 20%;
 }
 .process {
 	margin-top: 50px;
@@ -605,7 +605,6 @@ h4 {
 .idea-hack-banner {
 	background: url(../img/BPM.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 100% auto;
 	margin: 50px 0 70px 0;
 	height: 600px;
 	width: 100%;
@@ -613,50 +612,43 @@ h4 {
 .bpm-vendor {
 	background: url(../img/bpm-vendor.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 65% auto;
 	height: 400px;
 	width: 100%;
 }
 .bpm-whiteboard {
 	background: url(../img/bpm-whiteboard.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 65% auto;
 	height: 400px;
 	width: 100%;
 }
 .bpm-assumptions {
 	background: url(../img/bpm-assumptions.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 65% auto;
 	height: 400px;
 	width: 100%;
 }
 .bpm-build {
 	background: url(../img/bpm-lessthan1000.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 450px;
 	width: 100%;
 }
 .bpm-lofi {
 	background: url(../img/BPM-lofi.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 20% auto;
 	height: 325px;
 	width: 100%;
 }
 .bpm-refine {
 	background: url(../img/BPM-refined.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 2050px;
 	width: 100%;
 }
 /* ezCater */
 .ezcater-header {
-	background: url(../img/order-tracking-iphone-6.gif) no-repeat;
+	background: url(../img/order-tracking-iphone-6-small.gif) no-repeat;
 	background-position: 50% 0;
-	background-size: 20% auto;
 	height: 600px;
 	width: 100%;
 	margin-top: 80px;
@@ -664,7 +656,6 @@ h4 {
 .ezcater-pdf {
 	background: url(../img/ezcater-pdf.jpg) no-repeat;
 	background-position: 50% 0;
-	background-size: 65% auto;
 	height: 400px;
 	width: 100%;
 }
@@ -673,7 +664,6 @@ h4 {
 .rk-banner {
 	background: url(../img/rk-joe.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 20% auto;
 	height: 600px;
 	width: 100%;
 	margin-top: 80px;
@@ -681,28 +671,24 @@ h4 {
 .rk-rebrand {
 	background: url(../img/rk-rebrand.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 275px;
 	width: 100%;
 }
 .rk-groups-web {
 	background: url(../img/rk-groups-web.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 475px;
 	width: 100%;
 }
 .rk-storyboard {
 	background: url(../img/rk-storyboard.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 475px;
 	width: 100%;
 }
 .rk-mobile {
 	background: url(../img/rk-mobile.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 475px;
 	width: 100%;
 }
@@ -711,7 +697,6 @@ h4 {
 .klaviyo-banner {
 	background: url(../img/Klaviyo-Banner.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 400px;
 	width: 100%;
 	margin: 50px auto 80px auto;
@@ -719,28 +704,24 @@ h4 {
 .saas-pricing {
 	background: url(../img/Saas-Pricing.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
 }
 .klaviyo-research {
 	background: url(../img/Klaviyo-Research.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
 }
 .klaviyo-pricing {
 	background: url(../img/Klaviyo-Pricing-2.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
 }
 .klaviyo-measurement {
 	background: url(../img/Klaviyo-Measurements.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 40% auto;
 	height: 400px;
 	width: 100%;
 }
@@ -749,7 +730,6 @@ h4 {
 .partnerproject-banner {
 	background: url(../img/ovia-banner-3.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 100%;
 	height: 600px;
 	width: 100%;
 	margin-top: 50px;
@@ -758,49 +738,42 @@ h4 {
 .ovia-app-questions {
 	background: url(../img/ovia-app-questions-2.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 65% auto;
 	height: 400px;
 	width: 100%;
 }
 .ovia-parenting-questions {
 	background: url(../img/ovia-parenting-questions.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 400px;
 	width: 100%;
 }
 .ovia-styleguide {
 	background: url(../img/ovia-styleguide.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 1000px;
 	width: 100%;
 }
 .ovia-survey {
 	background: url(../img/ovia-survey.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 325px;
 	width: 100%;
 }
 .ovia-job-story {
 	background: url(../img/ovia-job-story.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 425px;
 	width: 100%;
 }
 .ovia-new-user {
 	background: url(../img/ovia-banner.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 1500px;
 	width: 100%;
 }
 .ovia-app-follower {
 	background: url(../img/ovia-app-follower.png) no-repeat;
 	background-position: 50% 0;
-	background-size: 60% auto;
 	height: 1300px;
 	width: 100%;
 }
