@@ -146,6 +146,10 @@ li {
 	margin: 0 auto;
 	padding: 0 20%;
 }
+.row-contact {
+	margin: 0 auto;
+	padding: 100px 40% 50px 40%;
+}
 .process {
 	margin-top: 50px;
 }
@@ -401,6 +405,28 @@ h4 {
 	box-shadow: inset 100px 0 0 0 #50E3C2;
 	background-color: #50E3C2;
 	color: #fff;
+}
+.contact-button {
+	background-color: #50E3C2;
+	border: 3px #50E3C2 solid;
+	font-family: 'Source Sans Pro', Garamond, serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -10px 0 0 35px;
+	padding: 10px 10px;
+	text-align: center;
+	width: 150px;
+	box-shadow: inset 0 0 0 0 #50E3C2;
+	-webkit-transition: all ease 0.6s;
+	-moz-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+}
+.contact-button:hover {
+	border: 3px #515e65 solid;
+	box-shadow: inset 100px 0 0 0 #fff;
+	background-color: #fff;
+	color: #515e65;
 }
 #ovia-thumbnail {
 	position: relative;
