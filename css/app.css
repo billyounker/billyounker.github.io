@@ -157,7 +157,7 @@ li {
 	color: #0B1B38;
 	font-family: 'Source Serif Pro' Garamond, serif;
 	font-size: 48px;
-	padding: 0 20%;
+	padding: 0 10%;
 	text-align: left;
 	margin-top: 120px;
 }
@@ -168,7 +168,7 @@ li {
 	color: #0B1B38;
 	font-family: 'Source Serif Pro' Garamond, serif;
 	font-size: 48px;
-	padding: 0 20%;
+	padding: 0 10%;
 	text-align: left;
 	margin-top: 0;
 }
@@ -176,7 +176,7 @@ li {
 	color: #0B1B38;
 	font-family: 'Source Serif Pro', Garamond, serif;
 	font-size: 48px;
-	padding: 0 20%;
+	padding: 0 10%;
 	text-align: left;
 }
 h4 {
@@ -190,7 +190,7 @@ h4 {
 	color: #0B1B38;
 	font-size: 18px;
 	margin-top: 20px;
-	padding: 0 20%;
+	padding: 0 10%;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -203,7 +203,7 @@ h4 {
 	font-size: 20px;
 	line-height: 32px;
 	margin-bottom: 40px;
-	padding: 0 20%;
+	padding: 0 10%;
 	text-align: left;
 }
 .gather,
@@ -250,37 +250,37 @@ h4 {
 .icon-header.gather {
 	background: url(../img/digger-med.png) no-repeat;
 	background-size: auto 75%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 }
 .icon-header.ideate {
 	background: url(../img/wheel_barrow-med.png) no-repeat;
 	background-size: auto 70%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 }
 .icon-header.test {
 	background: url(../img/u_bend-med.png) no-repeat;
 	background-size: auto 70%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 	}
 .icon-header.build {
 	background: url(../img/spanner_screwdriver-med.png) no-repeat;
 	background-size: auto 70%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 }
 .icon-header.measure {
 	background: url(../img/tape_measure-med.png) no-repeat;
 	background-size: auto 70%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 }
 .icon-header.refine {
 	background: url(../img/saw-med.png) no-repeat;
 	background-size: auto 70%;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-top: 69px;
 }
 .intercom-icon {
